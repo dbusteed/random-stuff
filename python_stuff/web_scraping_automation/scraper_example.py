@@ -1,3 +1,8 @@
+#
+#   SUPER simple web scraping example!
+#   kinda handy for reference / teaching
+#
+
 from bs4 import BeautifulSoup as bs
 from requests import get
 
@@ -9,10 +14,7 @@ main_div = ppage.find(class_="view-content")
 
 links = main_div.find_all('a')
 
-majors = []
-
-for l in links:
-    majors.append(l.text)
+majors = [l.text for l in links]
 
 for m in majors:
-    print('{}'.format(m))
+    print(m)

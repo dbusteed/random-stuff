@@ -1,10 +1,13 @@
-#!/usr/bin/env python3
+#
+#   template for sending mail with Python!
+#
 
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from secret import email_password # local file 'secret.py'
-from sys import argv
+from sys import argv 
+
+email_password = 'PASSWORD!'
 
 from_addr = 'FROM@EMAIL.com'
 to_addr = 'TO@EMAIL.com'

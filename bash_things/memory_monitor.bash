@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#   creates a CSV of memory statistics for the system
+#   and other processes. for example, replace "grep other"
+#   with "grep my_process" to get memory usage stats.
+#   best used over a long period of time, then you can
+#   visualize the trends and stuff
+
 echo "time,used_mem,other" > mem.csv
 
 while true: do
