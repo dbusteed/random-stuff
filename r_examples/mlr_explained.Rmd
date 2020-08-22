@@ -1,6 +1,8 @@
 ---
 title: "Multiple Linear Regression (MLR) Explained"
-output: html_notebook
+output:
+  pdf_document: default
+  html_notebook: default
 ---
 
 # Introduction
