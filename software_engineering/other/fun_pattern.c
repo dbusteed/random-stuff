@@ -1,3 +1,7 @@
+//
+//  weird programming challenge I found online
+//
+
 #include <stdio.h>
 
 int main()

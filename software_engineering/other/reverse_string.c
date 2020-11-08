@@ -1,9 +1,13 @@
+//
+//  common programming challenge
+//
+
 #include <stdio.h>
 #include <string.h>
 
 int main()
 {
-    char string[50] = "hello my name is Davis";
+    char string[50] = "this is a sample string";
     char rev_string[50];
 
     int i, j;
