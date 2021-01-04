@@ -28,11 +28,14 @@ xgb_grid <- expand.grid(
   subsample = 1
 )
 
+options(warn=-1)
 xgb_fit <- train(x = train_x,
                  y = train_y,
                  trControl = cv,
                  tuneGrid = xgb_grid,
                  method = "xgbTree")
+                 
+# objective = "reg:squarederror")
 
 y_hat <- predict(xgb_fit, test_x)
 r2 <- R2(y_hat, test_y)
