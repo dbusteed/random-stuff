@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701091935
+default_env.tres::Environment::-1::1684457574::0::1::::<><>::
+drawing-1.svg::CompressedTexture2D::6565285305741239374::1664406704::1684457579::1::::<><>::
+GUI.gd::GDScript::-1::1684457574::0::1::::<>Node2D<>::
+icon.png::CompressedTexture2D::8020116755995671108::1664246928::1684457579::1::::<><>::
+rect1524.png::CompressedTexture2D::5204887013865352569::1664406702::1684457579::1::::<><>::
+SelectionBox.gd::GDScript::-1::1684457574::0::1::::<>Control<>::
+Soldier.gd::GDScript::-1::1684457714::0::1::::<>CharacterBody2D<>::
+Soldier.tscn::PackedScene::-1::1684457574::0::1::::<><>::res://rect1524.png<>res://Soldier.gd
+TileMap.gd::GDScript::-1::1684457574::0::1::::ASTAR<>TileMap<>::
+tiles.png::CompressedTexture2D::3676397841369168568::1664247206::1684457579::1::::<><>::
+World.tscn::PackedScene::2944020535921567091::1695299937::0::1::::<><>::uid://bsm40aa8effxo::::res://tiles.png<>uid://dmjafe2poof3i::::res://icon.png<>res://Soldier.tscn<>res://TileMap.gd<>res://GUI.gd<>res://SelectionBox.gd
+::res://Scenes/::1670325899
+Line2D.tscn::PackedScene::-1::1684457574::0::1::::<><>::
